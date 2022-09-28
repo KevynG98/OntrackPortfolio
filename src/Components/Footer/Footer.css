@@ -1,0 +1,52 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  
+  .socialMedia svg {
+    color: white;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+  }
+  
+  .footer .socialMedia a {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .footer p {
+    color: white;
+  }
+
+ .footer .logoImage {
+    margin-top: 0px;
+    width: 5%;
+    height: auto;
+    margin-bottom: -25px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .footer svg {
+      font-size: 50px;
+      margin: 35px;
+    }
+
+    .footer .logoImage {
+      margin-top: 0px;
+      width: 10%;
+      height: auto;
+      margin-bottom: -50px;
+    }
+
+    .footer .socialMedia a {
+      margin-right: -25px;
+      margin-left: -25px;
+    }
+  }
